@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_84g",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adfbyexamplebook",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Chapter2"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sampledata"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

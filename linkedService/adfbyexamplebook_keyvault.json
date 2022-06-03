@@ -1,0 +1,20 @@
+{
+	"name": "adfbyexamplebook_keyvault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Connects to Azure Blob Storage using key and connection string obtained from the Key Vault",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureDataFactoryByExamp",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "StorageAccount-ConnectionString",
+				"secretVersion": "dff5680673454f0d96202d89133da4f7"
+			}
+		}
+	}
+}

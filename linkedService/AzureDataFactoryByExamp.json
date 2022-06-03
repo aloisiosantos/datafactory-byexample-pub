@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataFactoryByExamp",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://AzureDataFactoryByExamp.vault.azure.net/"
+		}
+	}
+}

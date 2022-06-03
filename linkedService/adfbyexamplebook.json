@@ -1,0 +1,13 @@
+{
+	"name": "adfbyexamplebook",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Blob storage in 'adfbyexamplebook' storage account",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://adfbyexamplebook.blob.core.windows.net",
+			"accountKind": "StorageV2"
+		}
+	}
+}
